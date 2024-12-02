@@ -77,3 +77,39 @@ header{
         }
     }
 }
+
+@media(max-width: 760px){
+    
+    header{
+        height: 25vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .boxInput{
+        display: none;
+    }
+    .boxLogo{
+        width: 100%;
+        h1{
+         font-size: 25px;
+        }
+        img{
+         width: 50px;
+        }
+    }
+    .boxMenu{
+        width: 100%;
+        ul{
+         font-size: 23px;
+         justify-content: space-around;
+        }
+    }  
+}
+
+@media(max-width: 388px){
+    .boxMenu{
+        ul{
+         font-size: 18px;
+        }
+    }
+}
