@@ -1,22 +1,21 @@
-
-.container{
+.container {
   height: 95vh;
   padding: 15px;
-  div{
+  div {
     height: 10vh;
     display: flex;
     justify-content: center;
-    h2{
-        font-size: 30px;
-        color: rgba(0, 86, 149, 1);
-        margin-left: 65px;
+    h2 {
+      font-size: 30px;
+      color: rgba(0, 86, 149, 1);
+      margin-left: 65px;
+    }
   }
- }
 }
 
-.boxDoados{
+.boxDoados {
   width: 15vw;
-  article{
+  article {
     border: solid 2px rgba(0, 86, 149, 1);
     border-radius: 15px;
     height: 30vh;
@@ -25,5 +24,31 @@
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-   }
+  }
+}
+
+// @media(max-width: 1100px){
+//   .boxDoados{
+//     article{
+//       width: 16vw;
+//       h3{
+//         font-size: 17px;
+//       }
+//       p{
+//         font-size: 14px;
+//       }
+//     }
+//   }
+// }
+
+// @media(max-width: ){}
+
+@media(max-width: 900px){
+  .boxDoados{
+    height:  80vh;
+  }
+
+  .container{
+    height: 90vh;
+  }
 }

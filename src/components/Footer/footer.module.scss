@@ -28,3 +28,21 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
+@media(max-width: 1000px){
+    .boxInfo{
+        nav{
+            width: 250px;
+        }
+    }
+}
+
+@media(max-width: 585px){
+    .boxInfo{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxTexto{
+        text-align: center;
+    }
+}
